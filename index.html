@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>andres</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Inicio</a></li>
+                <li><a href="#about">Habilidades</a></li>
+                <li><a href="#services">Programas</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contáctame</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Diseñador - Ilustrador</p>
+            <h1>Hi, I'm <span>Andrés</span><br>From Colombia</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Cualidades:</h1>
+                <p>Soy comprometido con las tareas asignadas, dando siempre lo mejor de mí mismo, tanto personal como profesional.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Habilidades</p>
+                    <p class="tab-links" onclick="opentab('experience')">Programas</p>
+                    <p class="tab-links" onclick="opentab('education')">Educación</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Estampado textil</span><br>conocimientos en técnicas como sublimación, DTF, Vinil textil, etc. </li>
+                        <li><span>Mockup</span><br>Maquetas creativas para visualizar antes de la impresión.</li>
+                        <li><span>Montajes</span><br>Realizar pruebas de color y medidas antes de realizar las impresiones.
+                        
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Adobe Illustrator</span><br>Patronajes, Ilustraciones, pruebas de color.</li>
+                        <li><span>Adobe Photoshop</span><br>Retoque de fotografía, Mockup, Ilustración digital.</li>
+                        <li><span>CorelDRAW</span><br>Montaje para impresón en plotter, pruebas de color, ajustes de tamaños.</li>
+                        <li><span>Procreate</span><br>Ilustración digital.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019</span><br>Técnico en diseño multimedia</li>
+                        <li><span>2019</span><br>Curso de Adobe Photoshop</li>
+                        <li><span>2019</span><br>Curso de Adobe Illustrator</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Experiencia</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Illustrator</h2>
+                <p>Dominio de Adobe Illustrator para la creación de ilustraciones vectoriales, diseño gráfico y manejo de herramientas avanzadas de dibujo y composición.</p>
+                <a href="#">........</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Photoshop</h2>
+                <p>Experiencia en Adobe Photoshop para edición y manipulación de imágenes, retoque fotográfico y creación de composisiones digitales.</p>
+                <a href="#">........</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Procreate</h2>
+                <p>Dominio de Procreate para ilustración digital, pintura artística y creación de diseños con técnicas avanzadas en pinceles y capas.                                              
+               </p>
+                <a href="#">........</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>la publicidad tenia como objetivo educar al público sobre los beneficios del colágeno para la piel y el cabello.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Marketing Digital</h3>
+                    <p>contenido llamativo en redes sociales, campañas publicitarias y sitios web para captar más clientes.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>El proyecto de tarjetas digitales redefine la manera en que las empresas conectan, permitiéndoles potenciar su imagen y ampliar sus redes de forma innovadora.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-4.png">
+                <div class="layer">
+                    <h3>Ilustración digital</h3>
+                    <p>Vive con arte, luce con estilo.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-5.png">
+                <div class="layer">
+                    <h3>Ilustración digital</h3>
+                    <p>Vive con arte, luce con estilo.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-6.png">
+                <div class="layer">
+                    <h3>Ilustración digital</h3>
+                    <p>Vive con arte, luce con estilo.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">.......</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> sanabria.sas@icloud.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+1 469 716 7492</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Instagram - @busther777 <i class="fas fa-heart"></i> by <a href="https://www.instagram.com/busther777?igsh=dW41dHY1bzRkeTN6&utm_source=ig_contact_invite">CLICK</a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
